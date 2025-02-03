@@ -9,4 +9,5 @@ class BaseModel(models.Model):
     
     class Meta:
         abstract = True # so that django doesn't this as a model but it will treat as a class so we can use it in etire project
-        
+
+
